@@ -1,4 +1,4 @@
-module github.com/clevergo/zapadapter
+module github.com/clevergo/log-zap
 
 go 1.13
 
