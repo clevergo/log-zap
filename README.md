@@ -19,8 +19,8 @@ import (
 var logger log.Logger
 
 func main() {
-   zapLogger, err := zap.NewDevelopment(zap.AddCallerSkip(1))
-	if err != nil {
+    zapLogger, err := zap.NewDevelopment(zap.AddCallerSkip(1))
+    if err != nil {
 		panic(err)
 	}
 	logger := New(zapLogger.Sugar())
